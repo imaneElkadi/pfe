@@ -9,8 +9,20 @@
 <body>
     <fieldset style="width:100px">
     <form action="valider.php" method="post">
-<div>have an account</div>
+<div>New account</div>
 <table>
+<tr>
+ <td><label for="fallname"> FallName</label></td>
+ <td><input type="text" placeholder="fallName" name="fallname"></td>
+</tr>
+<tr>
+ <td><label for="email"> Email</label></td>
+ <td><input type="email" placeholder="Email" name="email"></td>
+</tr>
+<tr>
+ <td><label for="user"> User</label></td>
+ <td><input type="text" placeholder="User" name="user"></td>
+</tr>
     <tr>
  <td><label for="user"> User</label></td>
  <td><input type="text" placeholder="User" name="user"></td>
