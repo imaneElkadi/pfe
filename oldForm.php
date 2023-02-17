@@ -8,21 +8,9 @@
 </head>
 <body>
     <fieldset style="width:100px">
-    <form action="insert.php" method="post">
-<div>New account</div>
+    <form action="valider.php" method="post">
+<div>have an account</div>
 <table>
-<tr>
- <td><label for="fullname"> FullName</label></td>
- <td><input type="text" placeholder="fullName" name="fullname"></td>
-</tr>
-<tr>
- <td><label for="email"> Email</label></td>
- <td><input type="email" placeholder="Email" name="email"></td>
-</tr>
-<tr>
- <td><label for="dateNaissance"> Birthday</label></td>
- <td><input type="date" placeholder="Birthday" name="dateNaissance"></td>
-</tr>
     <tr>
  <td><label for="user"> User</label></td>
  <td><input type="text" placeholder="User" name="user"></td>
