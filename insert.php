@@ -5,7 +5,7 @@ $email=$_POST['email'];
 $dtns=$_POST['dateNaissance'];
 $user=$_POST['user'];
 $psw=$_POST['psw'];
-$req="insert into newclient values('$fn','$email','$dtns','$user','$psw')";
+$req="insert into user values('$fn','$email','$dtns','$user','$psw')";
 if($cnx->query($req)==true)
 echo"insertion ok";
 else
