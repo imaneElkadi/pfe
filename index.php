@@ -16,6 +16,7 @@
     <fieldset style="width:100px">
     <form action="formNew.php" method="post">
 <input type="submit" value="New account">
+        <br>
     </form>
     </fieldset>
 </body>
